@@ -30,3 +30,8 @@ Finalmente, `generar_informe()` coordina las funciones anteriores según el rol 
 
 ## Problemas encontrados y soluciones
 Uno de los problemas que aparecio fue al intentar de utilizar el notebook para probar las funciones y no lograba que la reconozca. Esto me freno reiteradas ocasiones hasta entender que el problema es que ademas de guardar las nuevas funciones tenia ue reiniciar el kernel del notebook.
+
+## Modificaciones Solicitadas
+De acuerdo a las modificaciones que se pidieron en la evaluacion se agrego el nuevo rol economista, configurando sus columnas solicitadas, orden ascendente y el minimo de 90 % de completitud. Al probarlo se eliminaron las columnas CAT_OCUP, ITF y GDECCFR.
+
+También se incorporo la nueva columna `CH04`, de tipo `int` y con 95% de completitud, y la agregué a las columnas de interés del rol `investigador`. Al ejecutar el informe comprobé que aparece correctamente ordenada según su porcentaje de completitud.

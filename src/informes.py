@@ -17,6 +17,10 @@ COLUMNAS = {
         "tipo": "int",
         "completitud": 99
     },
+    "CH04": {
+    "tipo": "int",
+    "completitud": 95
+    },
     "REGION": {
         "tipo": "int",
         "completitud": 100
@@ -53,11 +57,11 @@ ROLES = {
         "columnas": ["EDAD", "ESTADO", "CAT_OCUP", "REGION"],
         "criterio": "nombre",
         "orden": "A",
-        "minimo_completitud":80
+        "minimo_completitud": 80
     },
 
     "investigador": {
-        "columnas": ["EDAD", "ESTADO", "CAT_OCUP", "ITF", "GDECCFR"],
+        "columnas": ["EDAD", "ESTADO", "CAT_OCUP", "ITF","CH04", "GDECCFR"],
         "criterio": "completitud",
         "orden": "B",
         "minimo_completitud": 60
@@ -69,8 +73,17 @@ ROLES = {
         "criterio": "completitud",
         "orden": "A",
         "minimo_completitud": 40
+    },
+
+    "economista": {
+        "columnas": ["PONDERA", "ESTADO", "CAT_OCUP", "REGION",
+                     "AGLOMERADO", "ANO4", "TRIMESTRE", "ITF", "GDECCFR"],
+        "criterio": "nombre",
+        "orden": "A",
+        "minimo_completitud": 90
     }
 }
+
 
 #FUNCIONES 
 
